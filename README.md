@@ -74,17 +74,30 @@ Nirbhaya-Who-Safe-main/
 
 Experience the interface of the Nirbhaya application:
 
-| | |
-|---|---|
-| ![Screen 1](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/1.jpeg) | ![Screen 2](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/2.jpeg) |
-| ![Screen 3](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/3.jpeg) | ![Screen 4](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/4.jpeg) |
-| ![Screen 5](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/5.jpeg) | ![Screen 6](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/6.jpeg) |
-| ![Screen 7](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/7.jpeg) | ![Screen 8](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/8.jpeg) |
-| ![Screen 9](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/9.jpeg) | ![Screen 10](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/10.jpeg) |
-| ![Screen 11](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/11.jpeg) | |
+
+ ![Screen 1](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/1.jpeg)  
+ 
+ ![Screen 2](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/2.jpeg)  
+ 
+ ![Screen 3](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/3.jpeg) 
+ 
+ ![Screen 4](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/4.jpeg) 
+ 
+ ![Screen 5](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/5.jpeg) 
+ 
+ ![Screen 6](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/6.jpeg) 
+ 
+ ![Screen 7](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/7.jpeg) 
+ 
+ ![Screen 8](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/8.jpeg) 
+ 
+ ![Screen 9](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/9.jpeg) 
+ 
+ ![Screen 10](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/10.jpeg) 
+ 
+ ![Screen 11](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/11.jpeg) 
 
 ---
-*Reference for Output Images:* [Henilshingala/Output-images](https://github.com/Henilshingala/Output-images/tree/master/Nirbhaya-who-safe)
 
 ## 🚀 How to Use
 

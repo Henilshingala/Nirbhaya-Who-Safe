@@ -1,0 +1,21 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk.dir)
+local.properties
+
+# Android Studio logs
+*.log
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build artifacts
+apk/app/build/
+apk/.gradle/
+apk/build/
+apk/local.properties

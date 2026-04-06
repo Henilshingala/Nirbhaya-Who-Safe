@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base app theme: AppCompat.NoActionBar is required for enableEdgeToEdge() compatibility
+         on Android 15 (SDK 35) with Jetpack Compose -->
+    <style name="Theme.WomenSafetyApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/primary</item>
+        <!-- Edge-to-edge: let the window draw behind system bars -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+</resources>

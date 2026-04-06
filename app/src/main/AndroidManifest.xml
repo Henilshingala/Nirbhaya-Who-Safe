@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- SENDER-ONLY APP PERMISSIONS -->
+    
+    <!-- Internet permission for WhatsApp API calls -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <!-- SMS permission for sending SOS alerts -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    
+    <!-- Call permissions for IoT call detection -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    
+    <!-- Contact permissions for importing guardians -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    
+    <!-- Siren & Vibration permissions -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    
+    <!-- Location permissions for sending live coordinates in SOS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <!-- Foreground service + notifications for emergency alert -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    
+    <!-- Notification permissions (Android 13+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    
+    <!-- Full screen intent for emergency alerts (Android 14+) -->
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    
+    <!-- Wake lock to keep device awake during emergency -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    
+    <!-- Schedule exact alarms (Android 12+) for reliable timing -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    
+    <!-- Request battery optimization exemption -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    
+    <!-- Boot receiver for direct boot mode -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.telephony.sms"
+        android:required="false" />
+
+    <permission
+        android:name="com.womensafety.app.permission.SOS_TRIGGER"
+        android:protectionLevel="signature" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WomenSafetyApp"
+        android:usesCleartextTraffic="false"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.WomenSafetyApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EmergencyAlertActivity"
+            android:exported="false"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.WomenSafetyApp">
+            <intent-filter>
+                <action android:name="com.womensafety.app.ACTION_SHOW_EMERGENCY_ALERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".receiver.SOSBroadcastReceiver"
+            android:exported="true"
+            android:permission="com.womensafety.app.permission.SOS_TRIGGER">
+            <intent-filter>
+                <action android:name="com.womensafety.app.SOS_TRIGGER" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- IoT Call Receiver for auto-triggering SOS on incoming calls from IoT SIM -->
+        <receiver
+            android:name=".receiver.IoTCallReceiver"
+            android:exported="true"
+            android:enabled="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- Boot receiver to ensure call detection works after device restart -->
+        <receiver
+            android:name=".receiver.BootReceiver"
+            android:exported="true"
+            android:enabled="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Service to handle emergency SOS logic (Siren, SMS, Location) -->
+        <service
+            android:name=".receiver.EmergencySOSService"
+            android:enabled="true"
+            android:exported="false" 
+            android:foregroundServiceType="specialUse">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                      android:value="emergency" />
+        </service>
+
+    </application>
+
+</manifest>

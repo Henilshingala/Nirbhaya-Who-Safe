@@ -253,24 +253,15 @@ Inspired by the need for stronger safety systems, this app focuses on **reliabil
 
 ## Output Images 
 
-
-![1](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/1.jpg) ![2](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/2.jpg)
-
-![3](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/3.jpg) ![4](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/4.jpg)
-
-![5](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/5.jpg) ![6](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/6.jpg)
-
-![7](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/7.jpg) ![8](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/8.jpg)
-
-![9](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/9.jpg) ![10](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/10.jpg)
-
-![11](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/11.jpg) ![12](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/12.jpg)
-
-![13](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/13.jpg) ![14](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/14.jpg)
-
-![15](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/15.jpg) ![16](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/16.jpg)
-
-![17](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/17.jpg) ![18](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/18.jpg)
-
-![19](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/19.jpg) ![20](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/20.jpg)(https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/19.jpg) 
-![20](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/20.jpg)
+| | |
+|---|---|
+| ![1](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/1.jpg) | ![2](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/2.jpg) |
+| ![3](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/3.jpg) | ![4](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/4.jpg) |
+| ![5](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/5.jpg) | ![6](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/6.jpg) |
+| ![7](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/7.jpg) | ![8](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/8.jpg) |
+| ![9](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/9.jpg) | ![10](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/10.jpg) |
+| ![11](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/11.jpg) | ![12](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/12.jpg) |
+| ![13](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/13.jpg) | ![14](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/14.jpg) |
+| ![15](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/15.jpg) | ![16](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/16.jpg) |
+| ![17](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/17.jpg) | ![18](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/18.jpg) |
+| ![19](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/19.jpg) | ![20](https://raw.githubusercontent.com/Henilshingala/Output-images/master/Nirbhaya-who-safe/20.jpg) |
